@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="cathecticPokerTypeStyle">
+        <attr name="pokerTypeName" format="string" />
+        <attr name="pokerTypeNameColor" format="color" />
+        <attr name="pokerTypeNamePosition" format="integer" />
+        <attr name="peilv" format="string" />
+        <attr name="peilvPosition" format="integer" />
+        <attr name="peilvColor" format="color" />
+        <attr name="betNumber" format="integer" />
+        <attr name="betNumberColor" format="color" />
+        <attr name="betNumberPosition" format="integer" />
+    </declare-styleable>
+
+</resources>
