@@ -23,4 +23,11 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.renhong.recyclerview", appContext.getPackageName());
     }
+
+
+    public void test(){
+        System.out.print("ssss");
+    }
+
+
 }
